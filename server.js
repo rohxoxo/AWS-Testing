@@ -25,7 +25,7 @@ app.use('/', (req, res)=>{
   res.status(200).json("Hello Denis");
 });
 
-const myPort = 3000;
+const myPort = 3001;
 
 const startServer = async () => {
   server.listen(myPort, () => {
